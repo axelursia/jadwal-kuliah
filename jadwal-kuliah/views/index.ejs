@@ -1,0 +1,22 @@
+<div class="p-5 mb-4 bg-dark text-white rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Daftar Dosen</h1>
+    <p class="col-md-8 fs-4">Berikut adalah daftar dosen yang mengajar pada semester ini.</p>
+  </div>
+</div>
+
+<div class="row">
+  <% dosen.forEach(d => { %>
+  <div class="col-md-4 mb-4">
+    <div class="card shadow-sm">
+      <img src="<%= d.foto %>" class="card-img-top" alt="Foto <%= d.nama %>" />
+      <div class="card-body">
+        <h5 class="card-title"><%= d.nama %></h5>
+        <h6 class="card-subtitle mb-2 text-muted"><%= d.matkul %></h6>
+        <p class="card-text">Untuk menghubungi beliau, silakan kirim email ke:</p>
+        <a href="mailto:<%= d.kontak %>" class="card-link"><%= d.kontak %></a>
+      </div>
+    </div>
+  </div>
+  <% }) %>
+</div>
