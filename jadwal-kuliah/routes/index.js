@@ -8,21 +8,21 @@ const dataDosen = [
     nama: "Bapak Budi, S.Kom., M.Kom.",
     matkul: "Pengembangan Aplikasi Web 2",
     kontak: "budi@kampus.ac.id",
-    foto: "/images/dosen 2.jpg",
+    foto: "/images/dosen-2.jpg",
   },
   {
     id: 2,
     nama: "Ibu Siti, S.T., M.T.",
     matkul: "Basis Data Lanjut",
     kontak: "siti@kampus.ac.id",
-    foto: "/images/dosen 1.jpg",
+    foto: "/images/dosen-1.jpg",
   },
   {
     id: 3,
     nama: "Bapak Agus, S.Si., M.Sc.",
     matkul: "Kecerdasan Buatan",
     kontak: "agus@kampus.ac.id",
-    foto: "/images/dosen 3.jpg",
+    foto: "/images/dosen-3.jpg",
   },
 ];
 
